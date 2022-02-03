@@ -10,30 +10,51 @@
 
     <!-- Additional CSS must be placed after Bootstrap CSS -->
     <link rel="stylesheet" href="css/styles.css" />
-    <title>Calico Cat Cafe</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mate|Pattaya|Quattrocento+Sans|Karma"/>
+    <title>Calico Cafe</title>
 </head>
 
 <body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Calico Cat Cafe</a>
+                <a class="navbar-brand" href="#">
+                    <img src="img/white_silhouette.png" width="25" height="25" class="align-center" alt="white cat silhouette" loading="lazy">
+                    Calico Cafe
+                </a>
+                <!-- <div>
+                    <a class="navbar-brand" href="#" id="logo-img"><img src="img/white_silhouette.png" alt="white cat silhouette" height="33" width="33" /></a>
+                    <a class="navbar-brand" href="#" id="logo">Calico Cafe</a>
+                </div> -->
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#cafeNavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>   
             
                 <div class="collapse navbar-collapse justify-content-end" id="cafeNavbar">     
                     <ul class="navbar-nav">
-                        <li class="nav-item"><a class="nav-link" href="#">Visit</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Adopt</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#"> Events</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">VISIT</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">ADOPT</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"> EVENTS</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">MENU</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
+        <div>
+            <img src="img/main-cat-small.jpg" class="cover-sm img-fluid d-block d-sm-none">
+        </div>
 
-
+        <div class="container-fluid" id="main" >
+            <div class="row row-content main-cover">
+                <div class="col-sm-4 text-center text-sm-left">
+                    <h1 class="bold">Welcome to the cat cafe</h1>
+                    <p>Take a sip of coffee and meet your new best friend.</p>
+                    <a class="btn btn-primary text-uppercase d-inline" href="#" role="button">Schedule visit</a>  
+                </div>
+                <div class="col">             
+                </div>
+            </div>
+        </div>
     </header>
 
     <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->

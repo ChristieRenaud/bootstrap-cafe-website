@@ -1,4 +1,67 @@
+body {
+    font-family: "Quattrocento Sans", sans-serif; }
+    
+/* #logo {
+    font-family: "Karma", serif;
+    font-size: 2rem;
+    padding-bottom: 0;
+} */
+
+
+/* #logo-img {
+    margin-right: .6rem;
+}   */
+.navbar-brand {
+    font-family: "Karma", serif;
+    font-size: 1.5rem;
+} 
+
+h1, h2, h3 {
+font-family: "Quattrocento Sans", sans-serif;
+}
+
+
+#main {
+    background-image: url("../img/main-cat.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+@media (max-width: 575px) {
+    #main {
+        background-image: none;
+        background-color: rgb(248, 211, 216);
+    }
+}
+
+
+
+.row-content {
+    padding: 50px 0;
+  /* border-bottom: 1px ridge; */
+    /* min-height: 200px;  */
+}
+
+.main-cover {
+    /* min-height: 600px;  */
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+
+.main-cover h1 {
+    font-weight: 600;
+}
+
+.main-cover p {
+    font-size: 1.5rem;
+}
+
+.cover-sm {
+
+}
 /* My borders showing different div */
+ /*  
 .col, div[class^="col-"], label[class^="col-"] {
     border: 1px solid red;
     margin: 2px; }
@@ -25,4 +88,4 @@
   
   .orange-border {
     border: 1px solid green; }
-  
+ */
