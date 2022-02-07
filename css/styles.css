@@ -1,12 +1,16 @@
 body {
-    font-family: "Quattrocento Sans", sans-serif; }
+    font-family: "Open Sans", sans-serif; }
     
+h1, h2, h3 {
+  font-family: "Karma", serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+  }
 /* #logo {
     font-family: "Karma", serif;
     font-size: 2rem;
     padding-bottom: 0;
 } */
-
 
 /* #logo-img {
     margin-right: .6rem;
@@ -16,9 +20,7 @@ body {
     font-size: 1.5rem;
 } 
 
-h1, h2, h3 {
-font-family: "Quattrocento Sans", sans-serif;
-}
+
 
 
 #main {
@@ -27,15 +29,32 @@ font-family: "Quattrocento Sans", sans-serif;
     background-size: cover;
 }
 
+#main h1 {
+  font-size: 3.5rem;
+}
+
+.main-content {
+  padding-bottom: 300px;
+}
+
 @media (max-width: 575px) {
     #main {
         background-image: none;
         background-color: rgb(248, 211, 216);
     }
+
+    .main-content {
+      padding-bottom: 30px;
+    }
+
+
 }
 
 
 
+p {
+  font-size: 1.3rem;
+}
 .row-content {
     padding: 50px 0;
   /* border-bottom: 1px ridge; */
@@ -43,7 +62,7 @@ font-family: "Quattrocento Sans", sans-serif;
 }
 
 .main-cover {
-    /* min-height: 600px;  */
+
     padding-left: 25px;
     padding-right: 25px;
 
@@ -56,12 +75,17 @@ font-family: "Quattrocento Sans", sans-serif;
 .main-cover p {
     font-size: 1.5rem;
 }
-
-.cover-sm {
-
+.address {
+  font-size: 1.75rem;
 }
+.phone {
+  font-size: 1.75rem;
+}
+.site-footer {
+  padding: 20px 0; }
+
 /* My borders showing different div */
- /*  
+/* 
 .col, div[class^="col-"], label[class^="col-"] {
     border: 1px solid red;
     margin: 2px; }
@@ -88,4 +112,4 @@ font-family: "Quattrocento Sans", sans-serif;
   
   .orange-border {
     border: 1px solid green; }
- */
+  */
