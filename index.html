@@ -7,6 +7,8 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
 
     <!-- Additional CSS must be placed after Bootstrap CSS -->
     <link rel="stylesheet" href="css/styles.css" />
@@ -22,10 +24,6 @@
                     <img src="img/white_silhouette.png" width="25" height="25" class="align-center" alt="white cat silhouette" loading="lazy">
                     Calico Cafe
                 </a>
-                <!-- <div>
-                    <a class="navbar-brand" href="#" id="logo-img"><img src="img/white_silhouette.png" alt="white cat silhouette" height="33" width="33" /></a>
-                    <a class="navbar-brand" href="#" id="logo">Calico Cafe</a>
-                </div> -->
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#cafeNavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>   
@@ -33,22 +31,22 @@
                 <div class="collapse navbar-collapse justify-content-end" id="cafeNavbar">     
                     <ul class="navbar-nav">
                         <li class="nav-item"><a class="nav-link" href="#registration-info">VISIT</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">ADOPT</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#"> EVENTS</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#adopt">ADOPT</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#events"> EVENTS</a></li>
                         <li class="nav-item"><a class="nav-link" href="#">MENU</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
         <div>
-            <img src="img/main-cat-small.jpg" class="cover-sm img-fluid d-block d-sm-none">
+            <img src="img/main-cat-small.jpg" class="img-fluid d-block d-sm-none">
         </div>
 
         <div class="container-fluid" id="main" >
             <div class="row row-content main-cover">
-                <div class="col-sm-4 text-center text-sm-left main-content pt-sm-4">
-                    <h1 class="bold">Relax with Coffee and Cats</h1>
-                    <p>Get ready to meet your new best friend.</p>
+                <div class="col-sm-4 text-center text-sm-left ml-md-3 main-content">
+                    <h1 class="text-white">Relax with Coffee and Cats</h1>
+                    <p class="text-white">Get ready to meet your new best friend.</p>
                     <a class="btn btn-primary text-uppercase d-inline" href="#registration-info" role="button">Schedule visit</a>  
                 </div>
                 <div class="col">             
@@ -67,53 +65,56 @@
         </div>
         <!-- Cat photo/info cards -->
         <div class="container">
-            <h1 class="text-center">Meet Some of our Adoptable Calico Cafe Cats</h1>
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 cat-cards mt-4" >
-                <div class="col">
-                    <div class="card h-100">
-                        <img src="img/cat-head-1.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Fluffy</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">American Shorthair, 2 years old</h6>
-                            <p class="card-text">Fluffy is a very affectionate female cat. She loves to play and does well with children and dogs.</p>
+            <div class="row mb-5  mx-5 mx-sm-3" id="adopt">
+                <h1 class="text-center mx-auto">Meet Our Adoptable Cats</h1>
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 cat-cards mt-4" >
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <img src="img/cat-head-1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Fluffy</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">American Shorthair, 2 years old</h6>
+                                <p class="card-text">Fluffy is a very affectionate female cat. She loves to play and does well with children and dogs.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col mb-4">
-                    <div class="card  h-100">
-                        <img src="" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <img src="img/cat-head-2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Princess</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Tabby, 6 months old</h6>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col mb-4">
-                    <div class="card  h-100">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <img src="img/cat-head-3.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Tiger</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Calico, 4 years old</h6>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col mb-4">
-                    <div class="card h-100">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <img src="img/cat-head-4.jpg" class="card-img-top" alt="..." />
+                            <div class="card-body">
+                                <h5 class="card-title">Carrot</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">American Shorthair, 4 months old</h6>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="row row-content px-4" id="registration-info">
-            <div class="col-md-8 mx-auto text-center">
-                <h2 class="">Register to visit our cats</h2>
+        <div class="row row-content px-4 pb-0" id="registration-info">
+            <div class="col-md-9 mx-auto text-center">
+                <img src="img/man-drinking-coffee.jpg" class="img-fluid mb-5" alt="Man Drinking coffee with a cat."/>
+                <h1 class="">Register to visit our cats</h2>
                 <p>
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque, asperiores molestias amet laudantium fugit exercitationem cupiditate, necessitatibus inventore cumque aliquid atque. Amet minima enim reprehenderit atque veniam assumenda sint hic.
                 </p>
@@ -121,7 +122,7 @@
         </div>
         <!-- Registration Form -->
         <div class="row row-content px-4"> 
-            <div class="col-md-8 mx-auto bg-light border border-light p-5">
+            <div class="col-md-9 mx-auto bg-light border border-light p-5">
                 
                 <form>
                     <h5 class="text-uppercase pb-3">Personal Information</h5>
@@ -153,8 +154,11 @@
                         </div>
                     </div>
                     <div class="form-row mb-3">
-                        <div class="col">
+                        <div class="col-md-6 mb-md-0 mb-3 ">
                             <input type="tel" class="form-control" id="inputAddress2" placeholder="Phone Number">
+                        </div>
+                        <div class="col">
+                            <input type="email" class="form-control" placeholder="Email Address">
                         </div>
                     </div>
                     <h5 class="text-uppercase pt-4 pb-3">Choose a time to Visit:</h5>
@@ -181,16 +185,23 @@
                             <input type="number" class="form-control" placeholder="Number of Visitors">
                         </div>
                     </div>
+                    <div class="form-row mb-3">
+                        <div class="col">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox">
+                                <label class="form-check-label"> Check if interested in adopting a cat.</label>
+                            </div>
+                        </div>
+                    </div>
                     <div class="form-group row mt-4">
                         <div class="col">
                             <button type="submit" class="btn btn-primary">Reserve Time</button>
                         </div>
                     </div>
                 </form>
-
             </div>
-
         </div>
+        <!-- Location -->
         <div class="container mt-4">
             <div class="row row-content mx-auto">
                 <div class="col-md-10 bg-light mx-auto">
@@ -199,49 +210,117 @@
                             <h1 class="text-center">Our Location</h1>
                         </div>
                     </div>
-                    <div class="row px-5 pb-5 pt-3">
-                        <div class="col-lg-6">
-                            <img src="https://via.placeholder.com/400.png" class="img-fluid" />
+                    <div class="row px-0 px-sm-5 pb-6 pt-3">
+                        <div class="col-lg-8 mb-lg-5">
+                            <img src="https://via.placeholder.com/500x350.png?text=Map+of+our+Location" class="img-fluid" />
+                            <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d47141.305954162344!2d-82.92285834246529!3d42.399382913453834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1644437623615!5m2!1sen!2sus"class="img-fluid" width="500px" height="600px" style="border:0;" allowfullscreen="true" loading="lazy"></iframe> -->
                         </div>
-                        <div class="col address text-dark mt-4  mt-lg-0 pl-lg-4">
+                        <div class="col address text-dark mt-4 mt-lg-0 pl-lg-4">
                             <div class="mb-3">
                                 1234 Main Street<br/>
                                 Grosse Pointe, MI 48236
                             </div>
                             <p class="text-muted phone">Telephone: </br>
                             <a href="tel:+1248XXXXXXX" class="text-decoration-none text-dark">248-XXX-XXXX</a></br></p>
-                            <button type="button" id="contactUsModalButton" class="btn btn-lg btn-primary mt-4">CONTACT US</a></br>
-
+                            <button type="button" id="contactUsModalButton" class="btn btn-lg btn-primary mt-2 mb-5">CONTACT US</a></br>
                         </div>
                     </div>
                 </div>
             </div>
 
         </div>
+        <!-- Events-->
+        <div class="container">
+            <div class="row row-content" id = "events">
+                <div class="col-md-10 mx-auto text-center">
+                <h1 class="mx-auto">Upcoming Events</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, dolorum suscipit. Deserunt odio dolore blanditiis similique delectus autem dolorum ducimus illo, nulla reprehenderit consectetur?</p>
+                </div>
+            </div>
+            <div class="row mx-auto">
+                <div class="col-7 col-sm-4 mx-auto mx-sm-0 mb-5">
+                    <img src="img/yoga-small.jpg" class="img-fluid">
+                </div>
+                <div class="col-sm-7 text-center text-sm-left">
+                    <h3>Cat Yoga</h3>
+                    <h4 class="text-secondary">February 17 &#8226 6 - 8 PM</h4>
+
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro ipsam voluptatem quae qui nam possimus quaerat quidem tempora adipisci perferendis. Et unde voluptatum dolor saepe quaerat consectetur minus, quisquam vitae placeat deserunt sit illum molestias.</p>
+                </div>
+            </div>
+            <div class="row row-content mx-auto">
+                <div class="col-7 col-sm-4 mx-auto mx-sm-0 mb-5">
+                    <img src="img/knitting.jpg" class="img-fluid">
+                </div>
+                <div class="col-sm-7 text-center text-sm-left">
+                    <h3>Knitting Night</h3> Night</h3>
+                    <h4 class="text-secondary">March 10 &#8226 6 - 8 PM</h4>
+
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro ipsam voluptatem quae qui nam possimus quaerat quidem tempora adipisci perferendis. Et unde voluptatum dolor saepe quaerat consectetur minus, quisquam vitae placeat deserunt sit illum molestias.</p>
+                </div>
+            </div>
+            <div class="row mx-auto">
+                <div class="col-7 col-sm-4 mx-auto mx-sm-0 mb-5">
+                    <img src="img/book-club.jpg" class="img-fluid">
+                </div>
+                <div class="col-sm-7 text-center text-sm-left">
+                    <h3>Book Club</h3>
+                    <h4 class="text-secondary">March 18 &#8226 6 - 8 PM</h4>
+
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro ipsam voluptatem quae qui nam possimus quaerat quidem tempora adipisci perferendis. Et unde voluptatum dolor saepe quaerat consectetur minus, quisquam vitae placeat deserunt sit illum molestias.</p>
+                </div>
+            </div>
+        </div>      
     </div>
-   <!--Contact Us-->
+   <!--Contact Us Modal-->
     <div class="modal fade" id="contactUsModal" tabindex="-1">
         <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title">Contact Us</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
+            <div class="modal-content">
+                <div class="modal-header bg-secondary" id="loginModalHeader">
+                    <h4 class="modal-title">Contact Us</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+            
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <form>
+                            <div class="form-row mt-3">
+                                <div class="form-group col-12">
+                                    <label class="sr-only" for="loginEmail">First Name</label>
+                                    <input type="text" class="form-control form-control" id="loginEmail" placeholder="First Name">
+                                </div>
+                                <div class="form-group col-12">
+                                    <label class="sr-only" for="loginEmail">Last Name</label>
+                                    <input type="text" class="form-control form-control" id="loginEmail" placeholder="Last Name">
+                                </div>
+                                <div class="form-group col-12">
+                                    <label class="sr-only" for="loginEmail">Telephone</label>
+                                    <input type="tel" class="form-control form-control" id="loginEmail" placeholder="Phone Number">
+                                </div>
+                                <div class="form-group col-12">
+                                    <label class="sr-only" for="loginEmail">Email address</label>
+                                    <input type="email" class="form-control form-control" id="loginEmail" placeholder="Email">
+                                </div>
+                                <div class="form-group col-12">
+                                    <label for="Comments">Questions or Comments</label>
+                                    <textarea class="form-control" id="Comments" rows="8"></textarea>
+                                </div>
+                                <div class="form-group col-12">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Submit</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </div>
-            <div class="modal-body">
-              <p>Modal body text goes here.</p>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Submit</button>
-            </div>
-          </div>
         </div>
-      </div>
-    <footer class="site-footer bg-dark">
+    </div>
+    <footer class="site-footer bg-dark mt-5">
         <div class="container-fluid">
-            <div class="row p-3 pb-0">
+            <div class="row p-3">
                 <div class="col-sm-5 text-decoration-none pb-4">
                     <h4 class="text-light text-uppercase">Contact Us</h4>
                     <address class="text-light">
@@ -250,7 +329,6 @@
                     </address>
                     <a href="tel:+1248XXXXXXX" class="text-light">248-XXX-XXXX</a></br>
                     <a href="mailtoCalicoCafe@gmail.com" class="text-light">CalicoCafe@gmail.com</a>
-
                 </div>
                 <div class="col-sm-4 pb-3">
                     <h4 class="text-light text-uppercase">Hours</h4>
@@ -260,17 +338,22 @@
                         <li><span class="font-weight-bold"></span>Sunday:<span>  10AM - 6PM</li>
                     </ul>
                 </div>
-                <div class="col-sm-3 pb-3">
+                <div class="col-sm-3 pb-0">
                     <ul class="list-unstyled text-uppercase text-decoration-none text-sm-right">
                         <li><a href="index.html" class="text-light text-decoration-none">Home</a></li>
-                        <li><a href="#" class="text-light text-decoration-none">Visit</a></li>
-                        <li><a href="#" class="text-light text-decoration-none">Adopt</a></li>
-                        <li><a href="#" class="text-light text-decoration-none">Events</a></li>
+                        <li><a href="#registration-info" class="text-light text-decoration-none">Visit</a></li>
+                        <li><a href="#adopt" class="text-light text-decoration-none">Adopt</a></li>
+                        <li><a href="#events" class="text-light text-decoration-none">Events</a></li>
                         <li><a href="#" class="text-light text-decoration-none">Menu</a></li>
-                        
                     </ul>
-                    
-
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-5 mx-auto text-sm-center">
+                    <a class="btn" href="http://instagram.com/"><i class="fa fa-instagram fa-lg text-light"></i></a>
+                    <a class="btn" href="http://facebook.com/"><i class="fa fa-facebook fa-lg text-light"></i></a>
+                    <a class="btn" href="http://twitter.com/"><i class="fa fa-twitter fa-lg text-light"></i></a>
+                    <a class="btn" href="http://pinterest.com/"><i class="fa fa-pinterest fa-lg text-light"></i></a>
                 </div>
             </div>
         </div>
