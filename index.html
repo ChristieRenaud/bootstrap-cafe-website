@@ -21,7 +21,7 @@
         <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
-                    <img src="img/white_silhouette.png" width="25" height="25" class="align-center" alt="white cat silhouette" loading="lazy">
+                    <img src="img/white_silhouette.png" width="32" height="32" class="align-center" alt="white cat silhouette" loading="lazy">
                     Calico Cafe
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#cafeNavbar">
@@ -39,7 +39,7 @@
             </div>
         </nav>
         <div>
-            <img src="img/main-cat-small.jpg" class="img-fluid d-block d-sm-none">
+            <img src="img/main-cat-small.jpg" class="img-fluid d-block d-sm-none" alt="Close up of orange and brown striped cat.">
         </div>
 
         <div class="container-fluid" id="main" >
@@ -47,7 +47,7 @@
                 <div class="col-sm-4 text-center text-sm-left ml-md-3 main-content">
                     <h1 class="text-white">Relax with Coffee and Cats</h1>
                     <p class="text-white">Get ready to meet your new best friend.</p>
-                    <a class="btn btn-primary text-uppercase d-inline" href="#registration-info" role="button">Schedule visit</a>  
+                    <a class="btn btn-primary text-uppercase" href="#registration-info" role="button">Schedule visit</a>  
                 </div>
                 <div class="col">             
                 </div>
@@ -56,21 +56,21 @@
     </header>
 
     <div class="container-fluid">
-        <div class="row row-content px-4">
+        <div class="row row-content">
             <div class="col-md-8 mx-auto text-center">
                 <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque, asperiores molestias amet laudantium fugit exercitationem cupiditate, necessitatibus inventore cumque aliquid atque. Amet minima enim reprehenderit atque veniam assumenda sint hic.
+                    The Calico Cafe is one of Michigan's oldest cat cafes. Located in the heart of Grosse Pointe, we offer customers a chance to enjoy a finely crafted beverage and interact with our playful, friendly cats. Sit back and watch their antics, or grab a toy and engage in a play session. If you are looking to add a pet to your family, our sweet cats are available for adoption. 
                 </p>
             </div>
         </div>
         <!-- Cat photo/info cards -->
         <div class="container">
-            <div class="row mb-5  mx-5 mx-sm-3" id="adopt">
+            <div class="row mb-5 mx-2 mx-sm-3" id="adopt">
                 <h1 class="text-center mx-auto">Meet Our Adoptable Cats</h1>
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 cat-cards mt-4" >
                     <div class="col mb-5">
                         <div class="card h-100">
-                            <img src="img/cat-head-1.jpg" class="card-img-top" alt="...">
+                            <img src="img/cat-head-1.jpg" class="card-img-top" alt="Light-colored cat close up.">
                             <div class="card-body">
                                 <h5 class="card-title">Fluffy</h5>
                                 <h6 class="card-subtitle mb-2 text-muted">American Shorthair, 2 years old</h6>
@@ -80,7 +80,7 @@
                     </div>
                     <div class="col mb-5">
                         <div class="card h-100">
-                            <img src="img/cat-head-2.jpg" class="card-img-top" alt="...">
+                            <img src="img/cat-head-2.jpg" class="card-img-top" alt="Striped cat close up.">
                             <div class="card-body">
                                 <h5 class="card-title">Princess</h5>
                                 <h6 class="card-subtitle mb-2 text-muted">Tabby, 6 months old</h6>
@@ -90,7 +90,7 @@
                     </div>
                     <div class="col mb-5">
                         <div class="card h-100">
-                            <img src="img/cat-head-3.jpg" class="card-img-top" alt="...">
+                            <img src="img/cat-head-3.jpg" class="card-img-top" alt="Striped white gray and white cat close up.">
                             <div class="card-body">
                                 <h5 class="card-title">Tiger</h5>
                                 <h6 class="card-subtitle mb-2 text-muted">Calico, 4 years old</h6>
@@ -100,7 +100,7 @@
                     </div>
                     <div class="col mb-5">
                         <div class="card h-100">
-                            <img src="img/cat-head-4.jpg" class="card-img-top" alt="..." />
+                            <img src="img/cat-head-4.jpg" class="card-img-top" alt="Orange cat close up." />
                             <div class="card-body">
                                 <h5 class="card-title">Carrot</h5>
                                 <h6 class="card-subtitle mb-2 text-muted">American Shorthair, 4 months old</h6>
@@ -108,6 +108,14 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div class="row my-5">
+                <div class="col-md-9 mx-auto text-center">
+                    <p>
+                        If you are interested in adopting one of these cats, <a href="#registration-form">
+                        reserve a time</a> to visit our cafe to find the cat that will be a perfect addition to your family. An adoption application and fee of $100 covering vaccinations and a medical checkup are required. For any questions, call us at 248-XXX-XXXX, or email <a href="mailtoCalicoCafe@gmail.com">CalicoCafe@gmail.com</a>.
+                    </p>
                 </div>
             </div>
         </div>
@@ -124,7 +132,7 @@
         <div class="row row-content px-4"> 
             <div class="col-md-9 mx-auto bg-light border border-light p-5">
                 
-                <form>
+                <form id="registration-form">
                     <h5 class="text-uppercase pb-3">Personal Information</h5>
                     <div class="form-row mb-3">
                         <div class="col-md-6 mb-md-0 mb-3 ">
@@ -212,8 +220,7 @@
                     </div>
                     <div class="row px-0 px-sm-5 pb-6 pt-3">
                         <div class="col-lg-8 mb-lg-5">
-                            <img src="https://via.placeholder.com/500x350.png?text=Map+of+our+Location" class="img-fluid" />
-                            <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d47141.305954162344!2d-82.92285834246529!3d42.399382913453834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1644437623615!5m2!1sen!2sus"class="img-fluid" width="500px" height="600px" style="border:0;" allowfullscreen="true" loading="lazy"></iframe> -->
+                            <img src="img/map.jpg" class="img-fluid border border-secondary rounded-sm" alt="Street map of cafe location."/>
                         </div>
                         <div class="col address text-dark mt-4 mt-lg-0 pl-lg-4">
                             <div class="mb-3">
@@ -239,21 +246,20 @@
             </div>
             <div class="row mx-auto">
                 <div class="col-7 col-sm-4 mx-auto mx-sm-0 mb-5">
-                    <img src="img/yoga-small.jpg" class="img-fluid">
+                    <img src="img/yoga-small.jpg" class="img-fluid" alt="Woman in yoga pose.">
                 </div>
                 <div class="col-sm-7 text-center text-sm-left">
                     <h3>Cat Yoga</h3>
                     <h4 class="text-secondary">February 17 &#8226 6 - 8 PM</h4>
-
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro ipsam voluptatem quae qui nam possimus quaerat quidem tempora adipisci perferendis. Et unde voluptatum dolor saepe quaerat consectetur minus, quisquam vitae placeat deserunt sit illum molestias.</p>
                 </div>
             </div>
             <div class="row row-content mx-auto">
                 <div class="col-7 col-sm-4 mx-auto mx-sm-0 mb-5">
-                    <img src="img/knitting.jpg" class="img-fluid">
+                    <img src="img/knitting.jpg" class="img-fluid" alt="Coffee cup and knitting project.">
                 </div>
                 <div class="col-sm-7 text-center text-sm-left">
-                    <h3>Knitting Night</h3> Night</h3>
+                    <h3>Knitting Night</h3>
                     <h4 class="text-secondary">March 10 &#8226 6 - 8 PM</h4>
 
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro ipsam voluptatem quae qui nam possimus quaerat quidem tempora adipisci perferendis. Et unde voluptatum dolor saepe quaerat consectetur minus, quisquam vitae placeat deserunt sit illum molestias.</p>
@@ -261,7 +267,7 @@
             </div>
             <div class="row mx-auto">
                 <div class="col-7 col-sm-4 mx-auto mx-sm-0 mb-5">
-                    <img src="img/book-club.jpg" class="img-fluid">
+                    <img src="img/book-club.jpg" class="img-fluid" alt="Coffee and open book.">
                 </div>
                 <div class="col-sm-7 text-center text-sm-left">
                     <h3>Book Club</h3>
